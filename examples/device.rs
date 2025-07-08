@@ -17,7 +17,7 @@
 //! version = "0.7.1"
 //! ```
 //!
-//! You also need to set the build target to thumbv7em-none-eabihf,
+//! You also need to set the build target to thumbv8m.main-none-eabihf,
 //! typically by editing `.cargo/config` and uncommenting the relevant target line.
 //!
 //! ---

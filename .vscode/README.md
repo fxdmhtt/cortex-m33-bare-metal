@@ -3,7 +3,7 @@
 Example configurations for debugging programs in-editor with VS Code.  
 This directory contains configurations for two platforms:
 
- - `LM3S6965EVB` on QEMU
+ - `MPS3-AN524` on QEMU
  - `STM32F303x` via OpenOCD
 
 ## Required Extensions
@@ -25,7 +25,7 @@ Otherwise, you can use the Extensions view to search for and install them, or go
 The quickstart comes with two debug configurations.
 Both are configured to build the project, using the default settings from `.cargo/config`, prior to starting a debug session.
 
-1. QEMU: Starts a debug session using an emulation of the `LM3S6965EVB` mcu.
+1. QEMU: Starts a debug session using an emulation of the `MPS3-AN524` mcu.
    - This works on a fresh `cargo generate` without modification of any of the settings described above.
    - Semihosting output will be written to the Output view `Adapter Output`.
    - `ITM` logging does not work with QEMU emulation.

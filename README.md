@@ -18,7 +18,7 @@ To build embedded programs using this template you'll need:
   targets. Run:
 
 ``` console
-$ rustup target add thumbv6m-none-eabi thumbv7m-none-eabi thumbv7em-none-eabi thumbv7em-none-eabihf
+$ rustup target add thumbv8m.main-none-eabi thumbv8m.main-none-eabihf
 ```
 
 ## Using this template
@@ -32,7 +32,7 @@ programs, check [the embedded Rust book][book].
 0. Before we begin you need to identify some characteristics of the target
   device as these will be used to configure the project:
 
-- The ARM core. e.g. Cortex-M3.
+- The ARM core. e.g. Cortex-M33.
 
 - Does the ARM core include an FPU? Cortex-M4**F** and Cortex-M7**F** cores do.
 
