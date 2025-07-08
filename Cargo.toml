@@ -9,13 +9,17 @@ version = "0.1.0"
 cortex-m = { version = "0.7.6", features = ["critical-section-single-core"] }
 cortex-m-rt = "0.7"
 cortex-m-semihosting = "0.5"
+panic-abort = "0.3.2"
+panic-semihosting = { version = "0.6.0", features = ["exit"] }
 panic-halt = "1.0.0"
 
 # Uncomment for the panic example.
 # panic-itm = "0.4.1"
 
 # Uncomment for the allocator example.
-# embedded-alloc = "0.6.0"
+embedded-alloc = "0.6.0"
+
+oorandom = "11.1.5"
 
 # Uncomment for the device example.
 # Update `memory.x`, set target to `thumbv8m.main-none-eabihf` in `.cargo/config`,

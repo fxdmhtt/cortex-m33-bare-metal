@@ -1,5 +1,6 @@
 [target.thumbv8m.main-none-eabi]
 # uncomment this to make `cargo run` execute programs on QEMU
+# runner = "qemu-system-arm -cpu cortex-m33 -machine mps3-an524 -d cpu_reset,int -nographic -semihosting-config enable=on,target=native -kernel"
 runner = "qemu-system-arm -cpu cortex-m33 -machine mps3-an524 -nographic -semihosting-config enable=on,target=native -kernel"
 
 [target.'cfg(all(target_arch = "arm", target_os = "none"))']
